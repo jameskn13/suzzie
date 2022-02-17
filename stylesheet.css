@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+body{
+  background-color: black;
+  color: white;
+}
+@font-face{
+    font-family: myFirstFont;
+    src: url(league.ttf);
+}
+.card{
+ background-color: rgba(235, 230, 229, 0.576)
+}
+a, a:hover { color: #cd4a25; }
+
+.top { position: fixed; top: 0; left: 0; z-index: 9999; width: 100%;}
+
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link {
+    background-color: #cd4a25;
+
+}
+.nav-link{
+    color: #c27f2e;
+}
+
+.nav-item:hover {
+	background-color: #746965;
+}
+
+.footer {
+	background-color: #92b47e00;
+}
+
+.card-img-top{
+    padding-top: 10px;
+}
+.img-fluid{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-title{
+    padding-top: 5%;
+}
+.card-body-author{
+    padding-top: 25%;
+    padding-left: 20%;
+    padding-right:20%
+}
+
+.btn-primary {
+	background-color: #cd4a25;
+	border-color: #cd4a25;
+}
+
+.btn-primary:hover{
+    background-color: #c27f2e;
+    border-color: #c27f2e;
+}
+
+#back2Top {
+    width:50px; /* width of button */
+    height:50px; /* height of button */
+    line-height:30px;
+    overflow:hidden;
+    z-index:999;
+    display:none;
+    cursor:pointer;
+    transform:rotate(270deg); /* turns right arrow 270 degrees */
+    position:fixed; /* fixed at bottom corner */
+    bottom:30px; /* distance from bottom */
+    right:40px; /* distance from right */
+    padding:8px 0px 0px 0px; /* padding around arrow */
+    border:1px solid #314528;
+    border-radius:2px;
+    background:#314528bd; /* blue background with transparency */
+    color:#eee; /* color of arrow */
+    text-align:center;
+    font-size:40px; /* size of the arrow */
+    text-decoration:none;
+    }
+    #back2Top:link {
+    background:#314528bd;
+    color:#eee;
+    }
+    #back2Top:visited {
+    background:#314528bd;
+    color:#eee;
+    }
+    #back2Top:hover {
+    background:#314528;
+    color:#ccc;
+    }
+    #back2Top:active {
+    background:#314528bd;
+    color:#eee;
+    }
